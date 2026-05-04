@@ -1,7 +1,7 @@
 # 📘 THE ENTERPRISE MLOPS HANDBOOK
 ## *Architecting Production-Ready AI Systems from Scratch*
 
-**Author:** [Your Name/AI Mentor]  
+**Author:** [Kundum Sai Mallesh]  
 **Edition:** 1.0 (The 30-Day Sprint)  
 **Focus:** Hybrid-Cloud Infrastructure, Enterprise Security, and Lifecycle Automation.
 
