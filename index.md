@@ -49,13 +49,15 @@ To master the transition from "Code" to "Cloud," we follow a four-tier migration
 4.  **Tier 4 (Hybrid Mesh):** A complex state where the application is split. *Example: Data in AWS $\rightarrow$ Model in Azure $\rightarrow$ Management Local.*
 
 ### 0.3 The Enterprise Tech Stack
-| Component | Technology | Enterprise Purpose |
-| :--- | :--- | :--- |
-| **Orchestration** | Kubernetes (K3s) | Ensuring zero-downtime deployments. |
-| **Lifecycle** | MLflow | Tracking hyper-parameters and model versioning. |
-| **IaC** | Terraform | Eliminating manual cloud configuration. |
-| **API Layer** | FastAPI | Creating asynchronous, high-performance endpoints. |
-| **Identity** | Keycloak | Centralized Single Sign-On (SSO) for security. |
+
+| Component     | Technology            | Enterprise Purpose                                  |
+|--------------|----------------------|----------------------------------------------------|
+| Orchestration| Kubernetes (K3s)     | Ensuring zero-downtime deployments                 |
+| Lifecycle    | MLflow               | Tracking hyper-parameters and model versioning     |
+| IaC          | Terraform            | Eliminating manual cloud configuration             |
+| API Layer    | FastAPI              | Creating asynchronous, high-performance endpoints  |
+| Identity     | Keycloak             | Centralized Single Sign-On (SSO) for security      |
+
 
 ### 0.4 Security Architecture & Hierarchies
 We implement **Role-Based Access Control (RBAC)**:
@@ -156,7 +158,7 @@ if __name__ == "__main__":
 ### 2.6 Line-by-Line Code Breakdown
 
 | Line/Block | What it does | Why it's done (The "Pro" Explanation) |
-| :--- | :--- | :--- |
+|------------|--------------|----------------------------------------|
 | `np.random.seed(42)` | Sets a starting point for random numbers. | Ensures **Reproducibility**. Essential for debugging and auditing in enterprise AI. |
 | `p=[0.7, 0.3]` | Sets probability of churn to 30%. | Simulates **Class Imbalance**, a real-world scenario where the "event" (churn) is rarer than the "non-event." |
 | `df.drop(['customer_id', 'churn'], axis=1)` | Removes the ID and the Target from the feature set. | Removes **Noise**. `customer_id` is not a feature; it is an identifier. |
