@@ -6,8 +6,7 @@
 **Focus:** Hybrid-Cloud Infrastructure, Enterprise Security, and Lifecycle Automation.
 
 ---
-[Home](/JourneytoMLOps/)
-[DSA](/JourneytoMLOps/dsa)
+[![Home](https://img.shields.io/badge/Home-Click-blue)](/JourneytoMLOps/) &nbsp;&nbsp;&nbsp;&nbsp; [![DSA](https://img.shields.io/badge/DSA-Start-green)](/JourneytoMLOps/dsa/)
 
 
 ## 📑 TABLE OF CONTENTS
