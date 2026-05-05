@@ -6,6 +6,9 @@
 **Focus:** Hybrid-Cloud Infrastructure, Enterprise Security, and Lifecycle Automation.
 
 ---
+[Home](/)
+[DSA](/dsa)
+
 
 ## 📑 TABLE OF CONTENTS
 
